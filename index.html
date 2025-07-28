@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Dashboard - Web Side</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="hamburger-menu" id="hamburgerMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Web Side</h1>
+        </div>
+        
+        <nav class="header-nav">
+            <a href="#" class="nav-link">
+                <i class="fas fa-film"></i>
+                <span>Movies</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fas fa-play"></i>
+                <span>Web Series</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fas fa-video"></i>
+                <span>Videos</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fas fa-music"></i>
+                <span>Audio</span>
+            </a>
+            <a href="#" class="nav-link active">
+                <i class="fas fa-shield-alt"></i>
+                <span>Admin</span>
+            </a>
+        </nav>
+        
+        <div class="header-right">
+            <div class="user-profile">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-film"></i>
+                <span>Movies</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-play"></i>
+                <span>Web Series</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-video"></i>
+                <span>Videos</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-music"></i>
+                <span>Audio</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-shield-alt"></i>
+                <span>Admin</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-user"></i>
+                <span>My Profile</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Logout</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Overlay for mobile -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="welcome-section">
+            <h2 class="welcome-title">
+                Welcome, Admin User
+                <span class="wave-emoji">👋</span>
+            </h2>
+            <p class="welcome-subtitle">This is your personalized OTT dashboard.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
